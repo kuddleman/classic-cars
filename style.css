@@ -32,6 +32,7 @@ body {
   top: 2rem;
   left: 2rem;
   z-index: 10;
+  transition: left 0.5s;
 }
 
 .menu.change {
@@ -51,6 +52,7 @@ body {
   flex-direction: column;
   padding: 4rem 0 0 4rem;
   z-index: 10;
+  transition: left 0.5s;
 }
 
 .navbar.change {
@@ -73,6 +75,7 @@ section {
   margin-bottom: 3rem;
   transform-origin: left;
   box-shadow: 0.5rem 0.5rem 1rem #aaa;
+  transition: left 0.5s, transform 0.5s;
 }
 
 section.change {
