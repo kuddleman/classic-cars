@@ -17,4 +17,21 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background: #ccc
+}
 /* End of Common Styles */
+
+/* Menu */
+.menu {
+  width: 4rem;
+  height: 4rem;
+  background:purple;
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+}
+/* End of Menu */
+
+
+
