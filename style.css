@@ -15,6 +15,7 @@ font-family: 'Special Elite', cursive; */
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -27,17 +28,40 @@ body {
 .menu {
   width: 4rem;
   height: 4rem;
-  background:purple;
   position: fixed;
   top: 2rem;
   left: 2rem;
   z-index: 10;
-  transition: left 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 .menu.change {
   left: 15vw;
+  transform: rotate(45deg);
 }
+
+.menu-line{
+  width: 100%;
+  height: 0.2rem;
+  background: #fff;
+  margin: 0.3rem 0;
+  box-shadow: 0.1rem 0.1rem 0.3rem #222;
+  transition: transform .5s;
+}
+
+.change .menu-line-1 {
+  transform: rotate(270deg) translateX(-0.4rem);
+}
+.change .menu-line-2 {
+  transform: rotate(360deg) translateY(-0.4rem);
+}
+
+
 /* End of Menu */
 
 /* Navbar */
