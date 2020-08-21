@@ -85,8 +85,18 @@ body {
 
 .navbar-link {
   font-size: 1.5rem;
+  font-weight: 600;
   margin: 2rem 0;
+  color: #777;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  transition: color .3s;
 }
+
+.navbar-link:hover {
+  color: #111;
+}
+
 /* End of NavBar */
 
 /* Common Section Styles */
