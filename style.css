@@ -22,6 +22,12 @@ body {
   background: #ccc;
   padding-right: 3rem;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* End of Common Styles */
 
 /* Menu */
@@ -32,10 +38,7 @@ body {
   top: 2rem;
   left: 2rem;
   z-index: 10;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -122,4 +125,34 @@ section.change {
   transform: rotateY(10deg);
 }
 
+.section-heading {
+  font-size: 10rem;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 10rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  text-shadow: .3rem .3rem .5rem #555;
+}
+
 /* End of Common Section Styles */
+
+/* Section-1 */
+.section-1 {
+  flex-direction: column;
+  background: url(images/bg-section1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.section-1 .section-1-heading {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-shadow: 1rem 1rem 1rem #000,
+               2rem 2rem 2rem #111,
+               3rem 3rem 3rem #222;
+}
+
+.section-1 img {
+  width: 70%;
+}
+/* End of Section-1 */
