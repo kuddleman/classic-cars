@@ -58,6 +58,11 @@ body {
 .navbar.change {
   left: 0;
 }
+
+.navbar-link {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
 /* End of NavBar */
 
 /* Common Section Styles */
