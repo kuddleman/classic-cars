@@ -29,4 +29,18 @@ allWrappers.forEach( wrapper =>{
 // end wrapper click JS
 
 
-// Section 3 play video on mouse hover
+// Section 3 play video on mouse hover JS
+
+const videos = document.querySelectorAll('.video')
+
+videos.forEach( video =>{
+  video.addEventListener('mouseover', ()=>{
+    video.play()
+  })
+  video.addEventListener('mouseout', ()=>{
+    video.pause()
+  })
+})
+
+
+// end Section 3 play video JS)
