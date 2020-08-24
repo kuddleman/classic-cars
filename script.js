@@ -27,3 +27,6 @@ allWrappers.forEach( wrapper =>{
   wrapper.addEventListener('click', handleWrapperClick)
 } )
 // end wrapper click JS
+
+
+// Section 3 play video on mouse hover
